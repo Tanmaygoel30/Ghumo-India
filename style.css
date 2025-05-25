@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #4a4a4a;
+    /* position: relative; */
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 4rem;
+    width: 100%;
+    padding: 0 1.25rem;
+    background-color: #fffbf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.navButtons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navButtons a {
+    text-decoration: none;
+    color: inherit
+}
+
+#searchBar {
+    height: 2.5rem;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0 0.25rem 0 0.75rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* color: inherit; */
+}
+
+#searchBarIcon {
+    border: 1px solid #eaeaea;
+    background-color: #f9e5f0;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchBar:hover {
+    cursor: pointer;
+    border: 1px solid #d12b79;
+}
+
+#logIn {
+    border: none;
+    background: none;
+    height: 2rem;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    color: inherit;
+}
+
+#logIn:hover {
+    cursor: pointer;
+    color: #d12b79;
+}
+
+#signUp {
+    background: #fff;
+    color: #d12b79;
+    border: 1px solid #eaeaea;
+    height: 2rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+    font-size: 16px;
+    text-align: center;
+}
+
+#signUp:hover {
+    cursor: pointer;
+    background-color: #d12b79;
+    color: #eaeaea;
+}
+
+#menu {
+    height: 2.5rem;
+    width: 2.5rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .05), 0 2px 2px 0 rgba(0, 0, 0, .05), 0 4px 4px 0 rgba(0, 0, 0, .05);
+}
+
+#menu:hover {
+    cursor: pointer;
+}
