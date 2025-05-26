@@ -30,7 +30,9 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
+    margin-right: 4rem;
+  
 }
 
 .navButtons a {
@@ -114,3 +116,49 @@ nav {
 #menu:hover {
     cursor: pointer;
 }
+.introduction {
+    background-color: #feeddc;
+height: 60vh;
+width: 100vw;
+display: flex;
+position: relative;
+top: 10vh;
+justify-content: center;
+}
+
+
+.text {
+  color: #8b174e;
+height: 30vh;
+padding-left: 10vw;
+padding-right: 10vw;
+width: 50vw;
+}
+.text h1{
+    font-weight: 900;
+    padding-top: 7vh;
+    padding-bottom: 4vh;
+}
+.text p{
+    color: #4a4a4a;
+    font-size: larger;
+    line-height: 1.5;
+}
+.text h6{
+padding-top: 4vh;
+font-size: medium
+
+}
+.image {
+    height: 30vh;
+    margin: auto;
+    width: 50vw;
+    }
+    .image img{
+height: 50vh;
+width: 40vw;
+border-radius: 10px;
+position: absolute;
+top: 5vh;
+
+    }
